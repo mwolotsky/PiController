@@ -19,7 +19,7 @@ for line in file:
 		List.append(Str)
 	elif (i == 41):
 		for j in range(6):
-			Str += "\t\tif cap.is_touched(%d):\n" % j
+			Str += "\t\tif sensor.is_touched(%d):\n" % j
 			Str += "\t\t\tprint \"Pin %d is being touched!\"\n" % j
 			Str += "\t\t\tsounds[%d].play()\n" % j
 		List.append(Str)
