@@ -10,8 +10,9 @@ sudo python setup.py install
 
 cd ~/PiController
 
-cp -r Music/ ~/Music/
+cp Music/* ~/Music/
 mv /home/pi/Documents /home/pi/python_games/Documents
+cp bananaPiano.py /home/pi/Adafruit_Python_MPR121/examples/
 cp -r Documents/ /home/pi/Documents
 yes | sudo apt-get install jedit
 jedit /home/pi/Documents/bananaPianoSkeleton.py &
