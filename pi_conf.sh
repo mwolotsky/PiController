@@ -2,6 +2,7 @@
 
 sudo apt-get update
 yes | sudo apt-get install build-essential python-dev python-smbus python-pip git
+sudo apt-get clean
 cd ~
 git clone https://github.com/adafruit/Adafruit_Python_MPR121.git
 
